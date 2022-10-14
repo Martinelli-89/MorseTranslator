@@ -11,13 +11,9 @@
  
         const mockPhraseToTranslate = ["i"," ","h","a","t","e"," ","t","e","s","t","i","n","g","!"];
 
-        document.body.innerHTML = `
-        <section class="messageBox">
-        </section>`;
-
         translator(mockPhraseToTranslate);
 
-        const answer = document.querySelector(".messageBox");
+        const answer = translator(mockPhraseToTranslate);
         
-        expect(answer.innerHTML).toBe("**************--********-****-**-*--*-*-*--")})
+        expect(answer).toBe("**************--********-****-**-*--*-*-*--")})
     });
