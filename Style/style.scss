@@ -1,5 +1,51 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
+}
+
+main {
+
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #36454f;
+
+    .messageBox {
+        width: 96%;
+        height: 15%;
+        background-color: rgb(172, 122, 175);
+        margin-bottom: 3%;
+        margin-top: 3%;
+    }
+
+    .buttons {
+        width: 98%;
+        height: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-around;
+
+        .buttons__button {
+            width: 12%;
+            aspect-ratio:  1 / 1;
+            background-color: rgb(172, 122, 175);
+            margin-left: 1.5%;
+            margin-right: 1.5%;
+        }
+    }
+
+    .translate {
+        background-color: rgb(172, 122, 175);
+        color: antiquewhite;
+        width: 30%;
+        height: 6%;
+        border-radius: 15px;
+        text-align: center;
+    }
+
 }
