@@ -1,3 +1,11 @@
+/**
+ * @jest-environment jsdom
+ */
+
+import renderAlphabet from "../Logic/renderAlphabet.js";
+
+
+
 describe("renderAlphabet", () => {
     it("Render the alphabet correctly in the div buttons", () => {
       
